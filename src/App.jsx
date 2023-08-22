@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import TagsInput from './components/TagsInput';
+import './index.css';
 
 function App() {
   const [keywords, setKeywords] = useState([]);
